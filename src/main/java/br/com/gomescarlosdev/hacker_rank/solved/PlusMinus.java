@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.stream.Stream;
 
-class Result {
+class PlusMinusResult {
 
     public static void plusMinus(List<Integer> arr) {
         double pos = (double) arr.stream().filter(p -> p > 0).count();
@@ -35,7 +35,7 @@ public class PlusMinus {
                 .map(Integer::parseInt)
                 .toList();
 
-        Result.plusMinus(arr);
+        PlusMinusResult.plusMinus(arr);
 
         bufferedReader.close();
     }

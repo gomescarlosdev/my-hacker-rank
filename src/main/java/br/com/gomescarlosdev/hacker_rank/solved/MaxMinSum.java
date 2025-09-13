@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.stream.Stream;
 
-class Result_1 {
+class MaxMinSumResult {
 
     public static void miniMaxSum(List<Integer> arr) {
         Integer max = arr.stream().max(Integer::compareTo).orElseThrow();
@@ -32,7 +32,7 @@ public class MaxMinSum {
                 .map(Integer::parseInt)
                 .toList();
 
-        Result_1.miniMaxSum(arr);
+        MaxMinSumResult.miniMaxSum(arr);
 
         bufferedReader.close();
     }

@@ -14,7 +14,7 @@ import java.util.stream.IntStream;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result_3 {
+class MatchingStringsResult {
 
     public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
         Map<String, Long> frequencyMap = strings.stream()
@@ -53,7 +53,7 @@ public class MatchingStrings {
                 })
                 .collect(toList());
 
-        List<Integer> res = Result_3.matchingStrings(strings, queries);
+        List<Integer> res = MatchingStringsResult.matchingStrings(strings, queries);
 
         bufferedWriter.write(
                 res.stream()
