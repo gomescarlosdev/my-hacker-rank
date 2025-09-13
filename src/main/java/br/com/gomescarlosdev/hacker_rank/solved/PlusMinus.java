@@ -1,4 +1,4 @@
-package br.com.gomescarlosdev;
+package br.com.gomescarlosdev.hacker_rank.solved;
 
 
 import java.io.BufferedReader;
@@ -20,7 +20,7 @@ class Result {
 
 }
 
-public class Solution {
+public class PlusMinus {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
